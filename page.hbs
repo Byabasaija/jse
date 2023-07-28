@@ -1,9 +1,9 @@
 {{!< default}}
 
 {{#post}}
-<article class="gh-article {{post_class}}">
+<article class="gh-article {{post_class}} max-w-full">
 
-    <header class="gh-header gh-canvas">
+    <header class="gh-header gh-canvas m-auto">
         <h1 class="gh-title">{{title}}</h1>
 
         {{#if custom_excerpt}}
@@ -20,7 +20,7 @@
         {{/if}}
     </header>
 
-    <div class="gh-content gh-canvas">
+    <div class="gh-content gh-canvas prose lg:prose-xl m-auto">
         {{content}}
     </div>
 
