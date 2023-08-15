@@ -4,8 +4,10 @@
 // Import JS
 import menuOpen from "./menuOpen";
 import infiniteScroll from "./infiniteScroll";
+import updateCurrentYear from "./copyYear";
 
 
 // Call the menu and infinite scroll functions
 menuOpen();
 infiniteScroll();
+updateCurrentYear();
