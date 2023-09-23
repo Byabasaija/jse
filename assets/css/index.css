@@ -1212,9 +1212,9 @@ html,
     padding: 8vmin 0;
 }
 
-.gh-postfeed > *:first-child {
+/* .gh-postfeed > *:first-child {
     grid-column: 1 / -1;
-}
+} */
 
 .gh-container {
     width: 100%;
